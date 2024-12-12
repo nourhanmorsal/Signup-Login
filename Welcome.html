@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body onload="displayUserName()">
+    <nav>
+        <div class="container d-flex justify-content-between align-items-center ">
+        <a href="#">SMART LOGIN</a>
+        <button class="btn border-warning" onclick="window.location.href='login.html'">Logout</button>
+        </div>
+    </nav>
+    <div class="container w-75 d-flex align-items-center min-vh-100">
+    <div class="smartLogin w-75 mx-auto p-5 text-center">
+        <h1>Welcome <span id="username"></span></h1>
+        </div>
+    </div>
+    
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
